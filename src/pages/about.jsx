@@ -4,7 +4,6 @@ import Navbar from "../components/navbar";
 import Hobby from "../components/hobby";
 import Quotes from "../components/quotes";
 import Footer from "../components/footer";
-import CV from "../components/cv";
 
 const About = () => {
 	return (
@@ -36,7 +35,6 @@ const About = () => {
 					stopping by! 🚀
 				</p>
 			</div>
-            <CV />
 			<Hobby />
 			<Quotes />
 			<Footer />

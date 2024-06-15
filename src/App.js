@@ -7,6 +7,7 @@ import Projects from "./pages/projects";
 import Testimonials from "./pages/testimonials";
 import { Routes, Route } from "react-router";
 import TextPreloader from "./components/textPreloader";
+import Cursor from './components/cursor';
 import "./App.css"
 
 import Aos from "aos";
@@ -29,6 +30,7 @@ const App = () => {
 
 	return (
 		<>
+			<Cursor />
 			{loading ? <TextPreloader /> : <Routes>
 				<Route path="/" element={<Home />} />
 				<Route path="/about" element={<About />} />

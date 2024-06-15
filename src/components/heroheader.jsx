@@ -8,6 +8,7 @@ import {
 } from "@fortawesome/free-brands-svg-icons";
 import PropTypes from "prop-types";
 import { Link } from "react-router-dom";
+import CV from "./cv";
 
 const socialLinks = [
 	{ icon: faFacebook, href: "https://www.facebook.com/sahed.009" },
@@ -89,13 +90,10 @@ const Heroheader = () => {
 								<SocialLinks links={socialLinks} />
 							</div>
 							<div className="flex md:flex-col justify-between gap-4 md:gap-8">
-								<Link to="/about">
-									<button className="text-white bg-[#50C878] min-w-[128px] md:min-w-[160px]  min-h-[48px] rounded-md hover:text-lg transition-all duration-150">
-										More About Me
-									</button>
-								</Link>
+
+								<CV />
 								<Link to="/contact">
-									<button className="border-2 border-[#50C878] text-[#50C878] min-w-[160px]  min-h-[48px] rounded-md hover:text-lg transition-all duration-150">
+									<button className="border-2 border-[#50C878] text-[#50C878] min-w-[160px]  min-h-[48px] rounded-md font-semibold hover:text-lg transition-all duration-300">
 										Contact
 									</button>
 								</Link>
