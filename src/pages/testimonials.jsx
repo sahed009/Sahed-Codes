@@ -11,7 +11,7 @@ import PropTypes from "prop-types";
 
 import Navbar from "../components/navbar";
 import Footer from "../components/footer";
-
+import Certificates from "../components/certificates"
 const testimonialList = [
 	{
 		author: {
@@ -43,16 +43,6 @@ const testimonialList = [
 		rating: 4.7,
 		description:
 			"We were impressed with Sahed's attention to detail.We look forward to working with them again.",
-	},
-	{
-		author: {
-			fullName: "Mahsher Chowdhury",
-			picture: require("../assets/mahi-dp.jpg"),
-			designation: "Chef",
-		},
-		rating: 5,
-		description:
-			"Sahed is a frontend rockstar! He delivered stunning design, flawless code and exceeded our expectations. Quick and detail-oriented, He made the process a breeze.",
 	},
 	{
 		author: {
@@ -132,6 +122,7 @@ const Testimonial = ({ terminalList }) => {
 	return (
 		<section className=" text-white">
 			<Navbar />
+			<Certificates />
 			<div className="container px-4 lg:pl-40 mx-auto py-20 lg:py-16 relative">
 				<div className="flex flex-col md:flex-row gap-4 md:gap-8">
 					<div data-aos="fade-right" className="flex flex-col justify-center gap-4">
