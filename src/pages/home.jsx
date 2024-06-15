@@ -16,13 +16,7 @@ const home = () => {
 					/>
 				</div>
 
-                <div className="absolute right-0 top-[550px] md:top-[400px] md:right-10 rounded-full p-10 animate-spin">
-					<img
-						src={require("../assets/abstract-shape.png")}
-						alt=""
-						className="max-w-[48px]  h-auto"
-					/>
-				</div>
+            
 			</div>
 			<Navbar />
 			<div className="container">

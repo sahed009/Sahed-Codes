@@ -90,7 +90,7 @@ const Heroheader = () => {
 							</div>
 							<div className="flex md:flex-col justify-between gap-4 md:gap-8">
 								<Link to="/about">
-									<button className="text-white bg-[#50C878] min-w-[160px]  min-h-[48px] rounded-md hover:text-lg transition-all duration-150 animate-bounce">
+									<button className="text-white bg-[#50C878] min-w-[128px]  min-h-[48px] rounded-md hover:text-lg transition-all duration-150">
 										More About Me
 									</button>
 								</Link>

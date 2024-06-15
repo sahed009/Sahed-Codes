@@ -117,7 +117,7 @@ const Navbar = () => {
 			<div className="lg:hidden">
 				<button
 					onClick={toggleMobileMenu}
-					className="fixed z-50 top-4 left-4 bg-[#50C878] text-white rounded-md"
+					className="fixed z-50 top-4 left-4 bg-[#50C878] text-white rounded-md shadow shadow-md shadow-black flex justify-around items-center pr-2"
 				>
 					<svg
 						xmlns="http://www.w3.org/2000/svg"
@@ -127,22 +127,24 @@ const Navbar = () => {
 					>
 						<path d="M0 216C0 149.7 53.7 96 120 96h8c17.7 0 32 14.3 32 32s-14.3 32-32 32h-8c-30.9 0-56 25.1-56 56v8h64c35.3 0 64 28.7 64 64v64c0 35.3-28.7 64-64 64H64c-35.3 0-64-28.7-64-64V320 288 216zm256 0c0-66.3 53.7-120 120-120h8c17.7 0 32 14.3 32 32s-14.3 32-32 32h-8c-30.9 0-56 25.1-56 56v8h64c35.3 0 64 28.7 64 64v64c0 35.3-28.7 64-64 64H320c-35.3 0-64-28.7-64-64V320 288 216z" />
 					</svg>
+					<span className="font-bold">Menu</span>
 				</button>
 
 				{isMobileMenuOpen && (
-					<div className="fixed top-0 left-0 w-[75%] h-full flex flex-col justify-center items-center bg-[#50C878] text-white z-50">
+					<div className="fixed top-0 left-0 w-[65%] h-full flex flex-col justify-center items-center bg-[#50C878] text-white z-50">
 						<button
 							onClick={toggleMobileMenu}
-							className="fixed top-4 left-4 p-2 bg-[#50C878] text-white rounded-md"
+							className="fixed top-8 left-8 bg-[#50C878] text-white rounded-md shadow shadow-sm shadow-black flex justify-around items-center pr-2"
 						>
 							<svg
 								xmlns="http://www.w3.org/2000/svg"
-								className="h-14 w-14 p-2 mb-0 shadow-xl rounded-md"
+								className="h-14 w-14 p-2 mb-0 rounded-md"
 								viewBox="0 0 640 512"
 								fill="#191716"
 							>
 								<path d="M384 128c70.7 0 128 57.3 128 128s-57.3 128-128 128H192c-70.7 0-128-57.3-128-128s57.3-128 128-128H384zM576 256c0-106-86-192-192-192H192C86 64 0 150 0 256S86 448 192 448H384c106 0 192-86 192-192zM192 352a96 96 0 1 0 0-192 96 96 0 1 0 0 192z" />
 							</svg>
+							<span className="font-bold ml-1">Close</span>
 						</button>
 
 						<Link
