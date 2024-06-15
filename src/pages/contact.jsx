@@ -1,43 +1,70 @@
-import React, { useState } from "react";
+import React from "react";
+import { useForm } from "react-hook-form";
 import Navbar from "../components/navbar";
 import profileImg from "../assets/profile-img.jpg";
 import Footer from "../components/footer";
 
 const ContactForm = () => {
-	const [validated, setValidated] = useState(false);
+	const {
+		register,
+		trigger,
+		formState: { errors },
+	} = useForm();
 
-	const handleSubmit = (event) => {
-		event.preventDefault();
 
-		const form = event.currentTarget;
-		if (form.checkValidity() === false) {
-			event.preventDefault();
-			event.stopPropagation();
+	const onSubmit = async (e) => {
+		console.log("~ e", e);
+		const isValid = await trigger();
+		if (!isValid) {
+			e.preventDefault();
 		}
-
-		setValidated(true);
 	};
 
 	return (
 		<form
-			className=""
-			noValidate
-			validated={validated}
-			onSubmit={handleSubmit}
+			target="_blank"
+			onSubmit={onSubmit}
+			action="https://formsubmit.co/8b669ed9906b9662886605d393459d00"
+			method="POST"
 		>
 			<div className="mb-4">
 				<input
 					type="text"
 					className="min-h-[48px] leading-[48px] bg-[#161515] shadow-2xl shadow-[#2f2f2f] border border-transparent rounded-xl focus:outline-none focus:border focus:border-[#70C878] w-full px-5"
 					placeholder="Enter Name"
+					{...register("name", {
+						required: true,
+						maxLength: 100,
+					})}
 				/>
+				{errors.name && (
+					<p className="text-red mt-1">
+						{errors.name.type === "required" &&
+							"This field is required."}
+						{errors.name.type === "maxLength" &&
+							"Max length is 100 char."}
+					</p>
+				)}
 			</div>
 			<div className="mb-4">
 				<input
 					type="email"
 					className="min-h-[48px] leading-[48px] bg-[#161515] shadow-2xl shadow-[#2f2f2f] border border-transparent rounded-xl focus:outline-none focus:border focus:border-[#70C878] w-full px-5"
 					placeholder="Enter Email"
+					{...register("email", {
+						required: true,
+						pattern:
+							/^[A-Z0-9._%+-]+@[A-Z0-9.-]+\.[A-Z]{2,}$/i,
+					})}
 				/>
+				{errors.email && (
+					<p className="text-red mt-1">
+						{errors.email.type === "required" &&
+							"This field is required."}
+						{errors.email.type === "pattern" &&
+							"Invalid email address."}
+					</p>
+				)}
 			</div>
 			<div className="mb-4">
 				<textarea
@@ -45,7 +72,19 @@ const ContactForm = () => {
 					className="min-h-[48px] leading-[48px] bg-[#161515] shadow-lg shadow-[#2f2f2f] border border-transparent rounded-xl focus:outline-none focus:border focus:border-[#70C878] w-full px-5"
 					placeholder="Enter Message"
 					rows="4"
-				></textarea>
+					{...register("message", {
+						required: true,
+						maxLength: 2000,
+					})}
+				/>
+				{errors.message && (
+					<p className="text-red mt-1">
+						{errors.message.type === "required" &&
+							"This field is required."}
+						{errors.message.type === "maxLength" &&
+							"Max length is 2000 char."}
+					</p>
+				)}
 			</div>
 			<div className="text-end">
 				<button
@@ -60,7 +99,7 @@ const ContactForm = () => {
 };
 
 const ContactFormCard = () => (
-	<div  data-aos="fade-right" className="bg-[#191716] shadow-xl rounded-2xl p-6 md:p-12 border border-[#70C878]">
+	<div data-aos="fade-right" className="bg-[#191716] shadow-xl rounded-2xl p-6 md:p-12 border border-[#70C878]">
 		<h2 className="text-3xl md:text-[45px] leading-none font-bold mb-4">
 			<span className="text-[#70C878]">Contact</span> Me
 		</h2>
