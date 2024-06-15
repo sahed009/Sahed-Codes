@@ -17,7 +17,7 @@ const footer = () => {
 					icon={faCopyright}
 					className="text-[#70C878] mr-3 text-2xl"
 				/>
-				2023 Saheduzzaman. All rights reserved.
+				2024 Saheduzzaman. All rights reserved.
 				<br />
 				Unauthorized use of any materials on this website may violate
 				copyright, trademark, and other laws.
