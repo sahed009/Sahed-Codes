@@ -28,10 +28,10 @@ const App = () => {
 	}, []);
 	return (
 		<>
-			{loading ? <div className="fixed flex h-vh w-full justify-center items-center top-1/2">
+			{loading ? <div className="fixed flex h-vh w-full justify-center items-center top-1/3">
 				<HashLoader
 					color="#50C878"
-					size={100}
+					size={200}
 					cssOverride={{}}
 				/>
 			</div> : <Routes>
