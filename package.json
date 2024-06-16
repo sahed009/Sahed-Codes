@@ -17,6 +17,7 @@
     "react-animate-on-scroll": "^2.1.9",
     "react-dom": "^18.3.1",
     "react-fontawesome": "^1.7.1",
+    "react-helmet-async": "^2.0.5",
     "react-hook-form": "^7.51.5",
     "react-router-dom": "^6.23.1",
     "react-scripts": "5.0.1",
