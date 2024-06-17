@@ -1,7 +1,7 @@
 import React from "react";
 import { useForm } from "react-hook-form";
 import Navbar from "../components/navbar";
-import profileImg from "../assets/profile-img.jpg";
+import profileImg from "../assets/profile-img.webp";
 import Footer from "../components/footer";
 
 const ContactForm = () => {
@@ -125,7 +125,7 @@ const Contact = () => {
 						</div>
 						<img
 							src={profileImg}
-							alt="me"
+							alt="Portrait of MD Saheduzzaman Sobuj, Frontend Developer"
 							className="max-w-full lg:max-w-[35%] h-auto z-10 lg:absolute border-2 border-l-[#70C878] border-b-[#70C878] border-t-0 border-r-0 p-2 rounded-md"
 						/>
 					</div>

@@ -17,27 +17,27 @@ import {
 const imageArray = [
 	{
 		id: 1,
-		src: require("../assets/cert0.png"),
-		alt: "Google Cybersecurity"
+		src: require("../assets/cert0.webp"),
+		alt: "Certificate of Achievement awarded to MD Saheduzzaman Sobuj by Google Cybersecurity"
 	},
 	{
 		id: 2,
-		src: require("../assets/cert1.jpg"),
-		alt: "NHSPC",
+		src: require("../assets/cert1.webp"),
+		alt: "Certificate of Achievement awarded to MD Saheduzzaman Sobuj by NHSPC",
 	}, {
 		id: 3,
-		src: require("../assets/cert4.jpg"),
-		alt: "Udemy",
+		src: require("../assets/cert4.webp"),
+		alt: "Certificate of Achievement awarded to MD Saheduzzaman Sobuj by Udemy",
 	},
 	{
 		id: 4,
-		src: require("../assets/cert2.jpg"),
-		alt: "NHSPC",
+		src: require("../assets/cert2.webp"),
+		alt: "Certificate of Achievement awarded to MD Saheduzzaman Sobuj by NHSPC",
 	},
 	{
 		id: 5,
-		src: require("../assets/cert3.jpg"),
-		alt: "NHSPC",
+		src: require("../assets/cert3.webp"),
+		alt: "Certificate of Achievement awarded to MD Saheduzzaman Sobuj by NHSPC",
 	},
 ];
 

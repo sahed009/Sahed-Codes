@@ -17,26 +17,26 @@ import {
 const imageArray = [
 	{
 		id: 1,
-		src: require("../assets/Gericht.jpeg"),
-		alt: "Gericht",
+		src: require("../assets/Gericht.webp"),
+		alt: "MD Saheduzzaman Sobuj's project: Interactive web application Gericht",
 		link: "https://sahed009.github.io/gericht-pr",
 	},
 	{
 		id: 2,
-		src: require("../assets/piroll.jpeg"),
-		alt: "Piroll",
+		src: require("../assets/piroll.webp"),
+		alt: "MD Saheduzzaman Sobuj's project: Interactive web application Piroll",
 		link: "https://sahed009.github.io/piroll/",
 	},
 	{
 		id: 4,
-		src: require("../assets/mahi.jpeg"),
-		alt: "Mahi",
+		src: require("../assets/mahi.webp"),
+		alt: "MD Saheduzzaman Sobuj's project: Interactive web application Mahi",
 		link: "https://sahed009.github.io/mahi/",
 	},
 	{
 		id: 5,
-		src: require("../assets/gpt-3.jpeg"),
-		alt: "GPT-3",
+		src: require("../assets/gpt-3.webp"),
+		alt: "MD Saheduzzaman Sobuj's project: Interactive web application GPT-3",
 		link: "https://sahed009.github.io/gpt3-pr/",
 	},
 ];
@@ -115,6 +115,7 @@ const Carousel = () => {
 								target="_blank"
 								rel="noopener noreferrer"
 							>
+
 								<img
 									src={image.src}
 									alt={image.alt}

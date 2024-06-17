@@ -61,8 +61,8 @@ const Heroheader = () => {
 			<div className="grid grid-cols-12 gap-4">
 				<div data-aos="fade-up" className="col-span-12 lg:col-span-5 xl:col-span-4 mb-6 lg:mb-0">
 					<img
-						src={require("../assets/main-dp.jpg")}
-						alt=""
+						src={require("../assets/main-dp.webp")}
+						alt="MD Saheduzzaman Sobuj, Frontend Developer from Sylhet, Bangladesh"
 						className="max-w-full h-auto border-[20px] border-[#50C878] shadow-2xl rounded-tl-[30px] rounded-br-[30px] rounded-tr-[30%] rounded-bl-[30%] mx-auto"
 					/>
 				</div>

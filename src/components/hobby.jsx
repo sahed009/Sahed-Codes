@@ -14,7 +14,7 @@ const Hobby = () => {
 				>
 					<img
 						src={require("../assets/strategy.gif")}
-						alt="chess"
+						alt="MD Saheduzzaman Sobuj enjoys chess"
 						className="max-w-full h-auto rounded-full border-2 border-[#50C878] p-4"
 					/>
 					<p className="text-2xl text-bold text-center mt-4">Chess</p>
@@ -22,7 +22,7 @@ const Hobby = () => {
 				<div data-aos="zoom-in-up" className="col-span-6 md:col-span-3 p-8 md:p-16 flex flex-col items-center justify-center">
 					<img
 						src={require("../assets/books.gif")}
-						alt="chess"
+						alt="MD Saheduzzaman Sobuj enjoys books"
 						className="max-w-full h-auto rounded-full border-2 border-[#50C878] p-4"
 					/>
 					<p className="text-2xl text-bold text-center mt-4">
@@ -32,7 +32,7 @@ const Hobby = () => {
 				<div data-aos="zoom-in-up" className="col-span-6 md:col-span-3 p-8 md:p-16 flex flex-col items-center justify-center">
 					<img
 						src={require("../assets/camera.gif")}
-						alt="chess"
+						alt="MD Saheduzzaman Sobuj enjoys photography"
 						className="max-w-full h-auto rounded-full border-2 border-[#50C878] p-4"
 					/>
 					<p className="text-2xl text-bold text-center mt-4">
@@ -42,7 +42,7 @@ const Hobby = () => {
 				<div data-aos="zoom-in-up" className="col-span-6 md:col-span-3 p-8 md:p-16 flex flex-col items-center justify-center">
 					<img
 						src={require("../assets/music.gif")}
-						alt="chess"
+						alt="MD Saheduzzaman Sobuj enjoys music"
 						className="max-w-full h-auto rounded-full border-2 border-[#50C878] p-4"
 					/>
 					<p className="text-2xl text-bold text-center mt-4">Music</p>
@@ -50,7 +50,7 @@ const Hobby = () => {
 				<div data-aos="zoom-in-up" className="col-span-6 md:col-span-3 p-8 md:p-16 flex flex-col items-center justify-center">
 					<img
 						src={require("../assets/film-tape.gif")}
-						alt="movie"
+						alt="MD Saheduzzaman Sobuj enjoys movie"
 						className="max-w-full h-auto rounded-full border-2 border-[#50C878] p-4"
 					/>
 					<p className="text-2xl text-bold text-center mt-4">Movie</p>
@@ -58,7 +58,7 @@ const Hobby = () => {
 				<div data-aos="zoom-in-up" className="col-span-6 md:col-span-3 p-8 md:p-16 flex flex-col items-center justify-center">
 					<img
 						src={require("../assets/airplane.gif")}
-						alt="airplane"
+						alt="MD Saheduzzaman Sobuj enjoys travelling"
 						className="max-w-full h-auto rounded-full border-2 border-[#50C878] p-4"
 					/>
 					<p className="text-2xl text-bold text-center mt-4">
@@ -68,7 +68,7 @@ const Hobby = () => {
 				<div data-aos="zoom-in-up" className="col-span-6 md:col-span-3 p-8 md:p-16 flex flex-col items-center justify-center">
 					<img
 						src={require("../assets/coding.gif")}
-						alt="Coding"
+						alt="MD Saheduzzaman Sobuj enjoys coding"
 						className="max-w-full h-auto rounded-full border-2 border-[#50C878] p-4"
 					/>
 					<p className="text-2xl text-bold text-center mt-4">
@@ -78,7 +78,7 @@ const Hobby = () => {
 				<div data-aos="zoom-in-up" className="col-span-6 md:col-span-3 p-8 md:p-16 flex flex-col items-center justify-center">
 					<img
 						src={require("../assets/pots.gif")}
-						alt="cooking"
+						alt="MD Saheduzzaman Sobuj enjoys cooking"
 						className="max-w-full h-auto rounded-full border-2 border-[#50C878] p-4"
 					/>
 					<p className="text-2xl text-bold text-center mt-4">

@@ -11,7 +11,7 @@ const home = () => {
 				<div className="absolute right-0  rounded-full p-10 "  data-aos="fade-up">
 					<img
 						src={require("../assets/logo sahed codes.png")}
-						alt=""
+						alt="Official logo of Sahed Codes"
 						className="max-w-[48px] md:max-w-[90px] lg:max-w-[150px] xl:max-w-[150px] h-auto rounded"
 					/>
 				</div>

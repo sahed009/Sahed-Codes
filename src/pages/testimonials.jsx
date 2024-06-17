@@ -16,7 +16,7 @@ const testimonialList = [
 	{
 		author: {
 			fullName: "Sujon Ahmed",
-			picture: require("../assets/sujon-dp.jpg"),
+			picture: require("../assets/sujon-dp.webp"),
 			designation: "Founder / CEO",
 		},
 		rating: 4.5,
@@ -26,7 +26,7 @@ const testimonialList = [
 	{
 		author: {
 			fullName: "Kefayetur Rahman",
-			picture: require("../assets/kefayet-dp.jpg"),
+			picture: require("../assets/kefayet-dp.webp"),
 			designation: "Resident Doctor",
 		},
 		rating: 4.3,
@@ -37,7 +37,7 @@ const testimonialList = [
 		author: {
 			fullName: "Mahdi Ahmed",
 			picture:
-            require("../assets/mahdi-dp.jpg"),
+            require("../assets/mahdi-dp.webp"),
 			designation: "Scientist",
 		},
 		rating: 4.7,
@@ -47,7 +47,7 @@ const testimonialList = [
 	{
 		author: {
 			fullName: "Nabil Ahmed",
-			picture: require("../assets/nabil-dp.jpg"),
+			picture: require("../assets/nabil-dp.webp"),
 			designation: "Engineer",
 		},
 		rating: 5,
