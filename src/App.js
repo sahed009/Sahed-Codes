@@ -10,6 +10,8 @@ import TextPreloader from "./components/textPreloader";
 import Cursor from "./components/cursor";
 import "./App.css";
 
+import { Analytics } from "@vercel/analytics/react";
+
 import Aos from "aos";
 import "aos/dist/aos.css";
 
@@ -28,6 +30,7 @@ const App = () => {
 
   return (
     <>
+      <Analytics />
       <Cursor />
       {loading ? (
         <TextPreloader />
