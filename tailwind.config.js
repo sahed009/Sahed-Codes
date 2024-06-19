@@ -3,6 +3,13 @@ module.exports = {
 	content: ["./src/**/*.{html,js,jsx}"],
 	theme: {
 		extend: {
+			colors: {
+				primary: '#50C878',
+				secondary: '#15803d',
+				accent: '#4ade80',
+				bgc: "#000000"
+
+			},
 			fontFamily: {
                 Dosis : ['"Dosis", sans-serif',],
             },

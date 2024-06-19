@@ -11,12 +11,12 @@ const Navbar = () => {
     <>
       <div
         data-aos="fade-right"
-        className="hidden lg:flex flex-col justify-center items-center bg-[#50C878] w-20 h-screen py-16 text-white fixed transition-all duration-200 z-20"
+        className="hidden lg:flex flex-col justify-center items-center bg-primary w-20 h-screen py-16 text-white fixed transition-all duration-200 z-20"
       >
         <Link
           to="/"
           className="group  flex items-center justify-center
-                 px-4 py-2 text-center hover:shadow-lg rounded-md  hover:shadow-green-700 transition-all duration-500 hover:bg-opacity-50 absolute top-[14%] left-4"
+                 px-4 py-2 text-center hover:shadow-lg rounded-md  hover:shadow-secondary transition-all duration-500 hover:bg-opacity-50 absolute top-[14%] left-4"
         >
           <svg
             xmlns="http://www.w3.org/2000/svg"
@@ -33,7 +33,7 @@ const Navbar = () => {
         <Link
           to="/about"
           className="group  flex items-center justify-center
-                 px-4 py-2 text-center hover:shadow-lg rounded-md hover:shadow-green-700 transition-all duration-500 hover:bg-opacity-50  absolute top-[28%] left-4"
+                 px-4 py-2 text-center hover:shadow-lg rounded-md hover:shadow-secondary transition-all duration-500 hover:bg-opacity-50  absolute top-[28%] left-4"
         >
           <svg
             xmlns="http://www.w3.org/2000/svg"
@@ -50,7 +50,7 @@ const Navbar = () => {
         <Link
           to="/expertise"
           className="group  flex items-center justify-center
-                 px-4 py-2 text-center hover:shadow-lg rounded-md hover:shadow-green-700 transition-all duration-500 hover:bg-opacity-50  absolute top-[42%] left-6"
+                 px-4 py-2 text-center hover:shadow-lg rounded-md hover:shadow-secondary transition-all duration-500 hover:bg-opacity-50  absolute top-[42%] left-6"
         >
           <svg
             xmlns="http://www.w3.org/2000/svg"
@@ -67,7 +67,7 @@ const Navbar = () => {
         <Link
           to="/projects"
           className="group  flex items-center justify-center
-                 px-4 py-2 text-center hover:shadow-lg rounded-md hover:shadow-green-700 transition-all duration-500 hover:bg-opacity-50  absolute top-[56%] left-4"
+                 px-4 py-2 text-center hover:shadow-lg rounded-md hover:shadow-secondary transition-all duration-500 hover:bg-opacity-50  absolute top-[56%] left-4"
         >
           <svg
             xmlns="http://www.w3.org/2000/svg"
@@ -84,7 +84,7 @@ const Navbar = () => {
         <Link
           to="/testimonials"
           className="group  flex items-center justify-center
-                 px-4 py-2 text-center hover:shadow-lg rounded-md hover:shadow-green-700 transition-all duration-500 hover:bg-opacity-50  absolute top-[70%] left-4"
+                 px-4 py-2 text-center hover:shadow-lg rounded-md hover:shadow-secondary transition-all duration-500 hover:bg-opacity-50  absolute top-[70%] left-4"
         >
           <svg
             xmlns="http://www.w3.org/2000/svg"
@@ -101,7 +101,7 @@ const Navbar = () => {
         <Link
           to="/contact"
           className="group  flex items-center justify-center
-                 px-4 py-2 text-center hover:shadow-lg rounded-md hover:shadow-green-700 transition-all duration-500 hover:bg-opacity-50  absolute top-[84%] left-4"
+                 px-4 py-2 text-center hover:shadow-lg rounded-md hover:shadow-secondary transition-all duration-500 hover:bg-opacity-50  absolute top-[84%] left-4"
         >
           <svg
             xmlns="http://www.w3.org/2000/svg"
@@ -120,7 +120,7 @@ const Navbar = () => {
       <div className="lg:hidden">
         <button
           onClick={toggleMobileMenu}
-          className="fixed z-50 top-4 left-4 bg-[#50C878] text-white rounded-md  shadow-md shadow-black flex justify-around items-center pr-2"
+          className="fixed z-50 top-4 left-4 bg-primary text-white rounded-md  shadow-md shadow-black flex justify-around items-center pr-2"
         >
           <svg
             xmlns="http://www.w3.org/2000/svg"
@@ -134,10 +134,10 @@ const Navbar = () => {
         </button>
 
         {isMobileMenuOpen && (
-          <div className="fixed top-0 left-0 w-[80%] h-full flex flex-col justify-center items-center bg-[#50C878] text-white z-50 opacity-95">
+          <div className="fixed top-0 left-0 w-[80%] h-full flex flex-col justify-center items-center bg-primary text-white z-50 opacity-95">
             <button
               onClick={toggleMobileMenu}
-              className="fixed top-8 left-8 bg-[#50C878] text-white rounded-md  shadow-sm shadow-black flex justify-around items-center pr-2"
+              className="fixed top-8 left-8 bg-primary text-white rounded-md  shadow-sm shadow-black flex justify-around items-center pr-2"
             >
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -153,7 +153,7 @@ const Navbar = () => {
             <Link
               to="/"
               className="group  w-2/3 flex items-center justify-center
-                 px-4 py-2 text-center hover:shadow-lg rounded-md hover:shadow-green-700 transition-all duration-500 hover:bg-opacity-50 absolute top-[14%] left-4"
+                 px-4 py-2 text-center hover:shadow-lg rounded-md hover:shadow-secondary transition-all duration-500 hover:bg-opacity-50 absolute top-[14%] left-4"
             >
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -168,7 +168,7 @@ const Navbar = () => {
             <Link
               to="/about"
               className="group  w-2/3 flex items-center justify-center
-                 px-4 py-2 text-center hover:shadow-lg rounded-md hover:shadow-green-700 transition-all duration-500 hover:bg-opacity-50  absolute top-[28%] left-4"
+                 px-4 py-2 text-center hover:shadow-lg rounded-md hover:shadow-secondary transition-all duration-500 hover:bg-opacity-50  absolute top-[28%] left-4"
             >
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -183,7 +183,7 @@ const Navbar = () => {
             <Link
               to="/expertise"
               className="group  w-2/3 flex items-center justify-center
-                 px-4 py-2 text-center hover:shadow-lg rounded-md hover:shadow-green-700 transition-all duration-500 hover:bg-opacity-50  absolute top-[42%] left-6"
+                 px-4 py-2 text-center hover:shadow-lg rounded-md hover:shadow-secondary transition-all duration-500 hover:bg-opacity-50  absolute top-[42%] left-6"
             >
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -198,7 +198,7 @@ const Navbar = () => {
             <Link
               to="/projects"
               className="group  w-2/3 flex items-center justify-center
-                 px-4 py-2 text-center hover:shadow-lg rounded-md hover:shadow-green-700 transition-all duration-500 hover:bg-opacity-50  absolute top-[56%] left-4"
+                 px-4 py-2 text-center hover:shadow-lg rounded-md hover:shadow-secondary transition-all duration-500 hover:bg-opacity-50  absolute top-[56%] left-4"
             >
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -213,7 +213,7 @@ const Navbar = () => {
             <Link
               to="/testimonials"
               className="group  w-2/3 flex items-center justify-center
-                 px-4 py-2 text-center hover:shadow-lg rounded-md hover:shadow-green-700 transition-all duration-500 hover:bg-opacity-50  absolute top-[70%] left-4"
+                 px-4 py-2 text-center hover:shadow-lg rounded-md hover:shadow-secondary transition-all duration-500 hover:bg-opacity-50  absolute top-[70%] left-4"
             >
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -228,7 +228,7 @@ const Navbar = () => {
             <Link
               to="/contact"
               className="group  w-2/3 flex items-center justify-center
-                 px-4 py-2 text-center hover:shadow-lg rounded-md hover:shadow-green-700 transition-all duration-500 hover:bg-opacity-50  absolute top-[84%] left-4"
+                 px-4 py-2 text-center hover:shadow-lg rounded-md hover:shadow-secondary transition-all duration-500 hover:bg-opacity-50  absolute top-[84%] left-4"
             >
               <svg
                 xmlns="http://www.w3.org/2000/svg"

@@ -66,9 +66,9 @@ const Heroheader = () => {
           <img
             src={require("../assets/main-dp.webp")}
             alt="MD Saheduzzaman Sobuj, Frontend Developer from Sylhet, Bangladesh"
-            className="max-w-full h-auto border-[20px] border-[#50C878] shadow-2xl rounded-tl-[30px] rounded-br-[30px] rounded-tr-[30%] rounded-bl-[30%] mx-auto"
-            width={1831}
-            height={2019}
+            className="max-w-full h-auto rounded-md shadow-2xl  mx-auto"
+            width={916}
+            height={1010}
             sizes="(max-width: 640px) 100vw, (max-width: 768px) 50vw, 33vw"
             srcSet={`${require("../assets/main-dp.webp")}?w=320 320w,
                  ${require("../assets/main-dp.webp")}?w=640 640w,
@@ -87,13 +87,13 @@ const Heroheader = () => {
             Crafting Digital Excellence, One Pixel at a Time.
           </p>
           <h2 className="text-3xl leading-none md:text-7xl font-bold mb-6 w-full relative flex flex-row md:flex-col gap-4">
-            <span className=" text-[#50C878]">MD</span>{" "}
-            <span className="before:text-green-400 before:[''] before:absolute before:border-b-4 before:border-green-400 before:top-2 before:left-0 before:w-0 before:h-[100%] before:overflow-hidden before:text-7xl before:animate-animate">
+            <span className=" text-primary">MD</span>{" "}
+            <span className="before:text-accent before:[''] before:absolute before:border-b-4 before:border-accent before:top-2 before:left-0 before:w-0 before:h-[100%] before:overflow-hidden before:text-7xl before:animate-animate">
               Saheduzzaman
             </span>
           </h2>
           <p className="text-xl leading-normal opacity-75 mb-2">
-            <span className="text-[#50C878]">I'm</span> a Frontend Developer
+            <span className="text-primary">I'm</span> a Frontend Developer
             based in Bangladesh and enjoy playing with sites. I love playing
             chess, travelling, photography & music.
           </p>
@@ -107,7 +107,7 @@ const Heroheader = () => {
               <div className="flex md:flex-col justify-between gap-4 md:gap-8">
                 <CV />
                 <Link to="/contact">
-                  <button className="border-2 border-[#50C878] text-[#50C878] min-w-[160px]  min-h-[48px] rounded-md font-semibold hover:text-lg transition-all duration-300">
+                  <button className="border-2 border-primary text-primary min-w-[160px]  min-h-[48px] rounded-md font-semibold hover:text-lg transition-all duration-300">
                     Contact
                   </button>
                 </Link>

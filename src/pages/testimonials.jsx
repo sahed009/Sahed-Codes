@@ -127,7 +127,7 @@ const Testimonial = ({ terminalList }) => {
 				<div className="flex flex-col md:flex-row gap-4 md:gap-8">
 					<div data-aos="fade-right" className="flex flex-col justify-center gap-4">
 						<div className="relative w-1/2">
-							<h1 className="text-white text-[50px] font-semibold  before:text-green-400 before:[''] before:absolute before:border-b-4 before:border-green-400 before:top-2 before:left-0 before:w-0 before:h-[100%] before:overflow-hidden before:text-7xl before:animate-animate">
+							<h1 className="text-white text-[50px] font-semibold  before:text-accent before:[''] before:absolute before:border-b-4 before:border-accent before:top-2 before:left-0 before:w-0 before:h-[100%] before:overflow-hidden before:text-7xl before:animate-animate">
 								<span className="text-[#70C878]">Client</span>{" "}
 								Review
 								<span className="text-[#70C878]">.</span>

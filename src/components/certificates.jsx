@@ -58,7 +58,7 @@ const Certificates = () => {
     <div className="flex flex-col md:flex-row gap-5 items-center justify-center bg-[#000]">
       <div data-aos="fade-right" className="flex flex-col gap-3">
         <div className="relative w-1/2">
-          <h1 className="text-white text-[50px] font-semibold  before:text-green-400 before:[''] before:absolute before:border-b-4 before:border-green-400 before:top-2 before:left-0 before:w-0 before:h-[100%] before:overflow-hidden before:text-7xl before:animate-animate">
+          <h1 className="text-white text-[50px] font-semibold  before:text-accent before:[''] before:absolute before:border-b-4 before:border-accent before:top-2 before:left-0 before:w-0 before:h-[100%] before:overflow-hidden before:text-7xl before:animate-animate">
             <span className="text-[#70C878]">My</span> Achievement
             <span className="text-[#70C878]">.</span>
           </h1>
@@ -108,7 +108,7 @@ const Certificates = () => {
         >
           {imageArray.map((image) => (
             <SwiperSlide key={image.id} className="mb-4">
-              <div className="z-50 border-[10px] border-[#50C878] shadow-2xl rounded-tl-[10px] rounded-br-[10px] rounded-tr-[10%] rounded-bl-[10%]">
+              <div className="z-50 border-[10px] border-primary shadow-2xl rounded-tl-[10px] rounded-br-[10px] rounded-tr-[10%] rounded-bl-[10%]">
                 <img
                   src={image.src}
                   alt={image.alt}

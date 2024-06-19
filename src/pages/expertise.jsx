@@ -94,7 +94,7 @@ const Expertise = () => {
       <div className="container px-4 lg:pl-40 mx-auto py-20 lg:py-10 relative">
         <div data-aos="fade-right">
           <div className="relative w-1/2 md:w-1/3">
-            <h2 className="text-white text-[50px] font-semibold  before:text-green-400 before:[''] before:absolute before:border-b-4 before:border-green-400 before:top-2 before:left-0 before:w-0 before:h-[100%] before:overflow-hidden before:text-7xl before:animate-animate">
+            <h2 className="text-white text-[50px] font-semibold  before:text-accent before:[''] before:absolute before:border-b-4 before:border-accent before:top-2 before:left-0 before:w-0 before:h-[100%] before:overflow-hidden before:text-7xl before:animate-animate">
               <span className="text-[#70C878]">My</span> Expertise
               <span className="text-[#70C878]">.</span>
             </h2>

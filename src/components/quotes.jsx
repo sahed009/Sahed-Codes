@@ -6,7 +6,7 @@ const quotes = () => {
 	return (
 		<div className="container px-4 lg:pl-40 mx-auto mt-10">
 			<div className="relative w-[60%] md:w-[40%]">
-				<h1 className="text-6xl text-bold before:text-green-400 before:[''] before:absolute before:border-b-4 before:border-green-400 before:top-2 before:left-0 before:w-0 before:h-[100%] before:overflow-hidden before:text-7xl before:animate-animate">
+				<h1 className="text-6xl text-bold before:text-accent before:[''] before:absolute before:border-b-4 before:border-accent before:top-2 before:left-0 before:w-0 before:h-[100%] before:overflow-hidden before:text-7xl before:animate-animate">
 					<span className="text-[#70C878]">Favourite</span> Quotes
 				</h1>
 			</div>

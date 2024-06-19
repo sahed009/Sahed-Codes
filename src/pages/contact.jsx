@@ -81,7 +81,7 @@ const ContactForm = () => {
       <div className="text-end">
         <button
           type="submit"
-          className="bg-[#50C878] hover:bg-opacity-90 text-white px-9 py-3 rounded-md mb-4"
+          className="bg-primary hover:bg-opacity-90 text-white px-9 py-3 rounded-md mb-4"
         >
           SEND ME A MESSAGE
         </button>
@@ -99,7 +99,7 @@ const ContactFormCard = () => (
       <span className="text-[#70C878]">Contact</span> Me
     </h2>
     <div className="relative w-1/3">
-      <p className=" mb-12  before:text-green-400 before:[''] before:absolute before:border-b-4 before:border-green-400 before:top-2 before:left-0 before:w-0 before:h-[100%] before:overflow-hidden before:text-7xl before:animate-animate">
+      <p className=" mb-12  before:text-accent before:[''] before:absolute before:border-b-4 before:border-accent before:top-2 before:left-0 before:w-0 before:h-[100%] before:overflow-hidden before:text-7xl before:animate-animate">
         Send a mail!
       </p>
     </div>
@@ -116,7 +116,7 @@ const Contact = () => {
         <div className="grid grid-cols-12 py-6 lg:gap-8">
           <div className="col-span-12 lg:col-span-7 p-16 mb-4 lg:mb-0 ">
             <div className="md:relative">
-              <div class="hidden lg:block md:absolute -top-10 -left-10 w-[75%] h-[450px] bg-transparent  border-2 border-[#50C878] rounded-md"></div>
+              <div class="hidden lg:block md:absolute -top-10 -left-10 w-[75%] h-[450px] bg-transparent  border-2 border-primary rounded-md"></div>
             </div>
             <img
               src={profileImg}

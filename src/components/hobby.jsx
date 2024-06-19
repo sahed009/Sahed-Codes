@@ -4,7 +4,7 @@ const Hobby = () => {
   return (
     <div className="container px-4 lg:pl-40 mx-auto mt-10">
       <div className="relative  w-1/2 md:w-1/3">
-        <h1 className="text-6xl text-bold before:text-green-400 before:[''] before:absolute before:border-b-4 before:border-green-400 before:top-2 before:left-0 before:w-0 before:h-[100%] before:overflow-hidden before:text-7xl before:animate-animate">
+        <h1 className="text-6xl text-bold before:text-accent before:[''] before:absolute before:border-b-4 before:border-accent before:top-2 before:left-0 before:w-0 before:h-[100%] before:overflow-hidden before:text-7xl before:animate-animate">
           <span className="text-[#70C878]">My</span> Hobbies
         </h1>
       </div>
@@ -18,7 +18,7 @@ const Hobby = () => {
             alt="MD Saheduzzaman Sobuj enjoys chess"
             width={640}
             height={640}
-            className="max-w-full h-auto rounded-full border-2 border-[#50C878] p-4"
+            className="max-w-full h-auto rounded-full border-2 border-primary p-4"
             sizes="(max-width: 640px) 100vw, (max-width: 768px) 50vw, 33vw"
             srcSet={`${require("../assets/strategy.gif")}?w=320 320w,
 								 ${require("../assets/strategy.gif")}?w=640 640w,
@@ -37,7 +37,7 @@ const Hobby = () => {
           <img
             src={require("../assets/books.gif")}
             alt="MD Saheduzzaman Sobuj enjoys books"
-            className="max-w-full h-auto rounded-full border-2 border-[#50C878] p-4"
+            className="max-w-full h-auto rounded-full border-2 border-primary p-4"
             width={640}
             height={640}
             sizes="(max-width: 640px) 100vw, (max-width: 768px) 50vw, 33vw"
@@ -58,7 +58,7 @@ const Hobby = () => {
           <img
             src={require("../assets/camera.gif")}
             alt="MD Saheduzzaman Sobuj enjoys photography"
-            className="max-w-full h-auto rounded-full border-2 border-[#50C878] p-4"
+            className="max-w-full h-auto rounded-full border-2 border-primary p-4"
             width={640}
             height={640}
             sizes="(max-width: 640px) 100vw, (max-width: 768px) 50vw, 33vw"
@@ -79,7 +79,7 @@ const Hobby = () => {
           <img
             src={require("../assets/music.gif")}
             alt="MD Saheduzzaman Sobuj enjoys music"
-            className="max-w-full h-auto rounded-full border-2 border-[#50C878] p-4"
+            className="max-w-full h-auto rounded-full border-2 border-primary p-4"
             width={640}
             height={640}
             sizes="(max-width: 640px) 100vw, (max-width: 768px) 50vw, 33vw"
@@ -100,7 +100,7 @@ const Hobby = () => {
           <img
             src={require("../assets/film-tape.gif")}
             alt="MD Saheduzzaman Sobuj enjoys movie"
-            className="max-w-full h-auto rounded-full border-2 border-[#50C878] p-4"
+            className="max-w-full h-auto rounded-full border-2 border-primary p-4"
             width={640}
             height={640}
             sizes="(max-width: 640px) 100vw, (max-width: 768px) 50vw, 33vw"
@@ -121,7 +121,7 @@ const Hobby = () => {
           <img
             src={require("../assets/airplane.gif")}
             alt="MD Saheduzzaman Sobuj enjoys travelling"
-            className="max-w-full h-auto rounded-full border-2 border-[#50C878] p-4"
+            className="max-w-full h-auto rounded-full border-2 border-primary p-4"
             width={640}
             height={640}
             sizes="(max-width: 640px) 100vw, (max-width: 768px) 50vw, 33vw"
@@ -142,7 +142,7 @@ const Hobby = () => {
           <img
             src={require("../assets/coding.gif")}
             alt="MD Saheduzzaman Sobuj enjoys coding"
-            className="max-w-full h-auto rounded-full border-2 border-[#50C878] p-4"
+            className="max-w-full h-auto rounded-full border-2 border-primary p-4"
             width={640}
             height={640}
             sizes="(max-width: 640px) 100vw, (max-width: 768px) 50vw, 33vw"
@@ -163,7 +163,7 @@ const Hobby = () => {
           <img
             src={require("../assets/pots.gif")}
             alt="MD Saheduzzaman Sobuj enjoys cooking"
-            className="max-w-full h-auto rounded-full border-2 border-[#50C878] p-4"
+            className="max-w-full h-auto rounded-full border-2 border-primary p-4"
             width={640}
             height={640}
             sizes="(max-width: 640px) 100vw, (max-width: 768px) 50vw, 33vw"
