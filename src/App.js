@@ -5,7 +5,7 @@ import Contact from "./pages/contact";
 import Expertise from "./pages/expertise";
 import Projects from "./pages/projects";
 import Testimonials from "./pages/testimonials";
-import { Routes, Route } from "react-router";
+import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import TextPreloader from "./components/textPreloader";
 import Cursor from "./components/cursor";
 import "./App.css";
@@ -29,31 +29,36 @@ const App = () => {
   }, []);
 
   return (
-    <>
-      <Analytics />
-      <Cursor />
-      {loading ? (
-        <TextPreloader />
-      ) : (
-        <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="/about" element={<About />} />
-          <Route path="/contact" element={<Contact />} />
-          <Route path="/expertise" element={<Expertise />} />
-          <Route
-            path="/projects"
-            element={
-              <Projects
-                title="How to Create Dynamic Meta Tags"
-                description="Learn how to create dynamic meta tags in a React.js application for improved SEO."
-                canonicalUrl="https://shedcodes.com/#/projects"
-              />
-            }
-          />
-          <Route path="/testimonials" element={<Testimonials />} />
-        </Routes>
-      )}
-    </>
+    <Router>
+        <Analytics />
+        <Cursor />
+        {loading ? (
+          <TextPreloader />
+        ) : (
+          <>
+            <Switch>
+              <Route exact path="/">
+                <Home />
+              </Route>
+              <Route path="/about">
+                <About />
+              </Route>
+              <Route path="/contact">
+                <Contact />
+              </Route>
+              <Route path="/expertise">
+                <Expertise />
+              </Route>
+              <Route path="/projects">
+                <Projects />
+              </Route>
+              <Route path="/testimonials">
+                <Testimonials />
+              </Route>
+            </Switch>
+          </>
+        )}
+    </Router>
   );
 };
 
