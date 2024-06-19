@@ -88,7 +88,7 @@ const Heroheader = () => {
           </p>
           <h2 className="text-3xl leading-none md:text-7xl font-bold mb-6 w-full relative flex flex-row md:flex-col gap-4">
             <span className=" text-primary">MD</span>{" "}
-            <span className="before:text-accent before:[''] before:absolute before:border-b-4 before:border-accent before:top-2 before:left-0 before:w-0 before:h-[100%] before:overflow-hidden before:text-7xl before:animate-animate">
+            <span className="underline decoration-accent underline-offset-8">
               Saheduzzaman
             </span>
           </h2>
