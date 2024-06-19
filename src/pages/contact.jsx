@@ -116,7 +116,7 @@ const Contact = () => {
         <div className="grid grid-cols-12 py-6 lg:gap-8">
           <div className="col-span-12 lg:col-span-7 p-16 mb-4 lg:mb-0 ">
             <div className="md:relative">
-              <div class="hidden lg:block md:absolute -top-10 -left-10 w-[75%] h-[450px] bg-transparent  border-2 border-primary rounded-md"></div>
+              <div className="hidden lg:block md:absolute -top-10 -left-10 w-[75%] h-[450px] bg-transparent  border-2 border-primary rounded-md"></div>
             </div>
             <img
               src={profileImg}
