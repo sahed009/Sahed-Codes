@@ -66,7 +66,7 @@ const Heroheader = () => {
           <img
             src={require("../assets/main-dp.webp")}
             alt="MD Saheduzzaman Sobuj, Frontend Developer from Sylhet, Bangladesh"
-            className="max-w-full h-auto rounded-md shadow-2xl  mx-auto"
+            className="max-w-full h-auto rounded-md shadow-2xl  mx-auto p-4"
             width={916}
             height={1010}
             sizes="(max-width: 640px) 100vw, (max-width: 768px) 50vw, 33vw"
