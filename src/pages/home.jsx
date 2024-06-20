@@ -3,7 +3,9 @@ import Navbar from "../components/navbar";
 import Heroheader from "../components/heroheader";
 import Footer from "../components/footer";
 
-const home = () => {
+
+
+const Home = () => {
   return (
     <div className="h-full bg-black text-white overflow-hidden">
       <div className="relative">
@@ -12,19 +14,19 @@ const home = () => {
           data-aos="fade-up"
         >
           <img
-            src={require("../assets/logo sahed codes.png")}
+            src={require("../assets/logo sahed codes.webp")}
             alt="Official logo of Sahed Codes"
             className="max-w-[48px] md:max-w-[90px] lg:max-w-[150px] xl:max-w-[150px] h-auto rounded"
-            width={500}
-            height={500}
+            width={200}
+            height={200}
             sizes="(max-width: 640px) 100vw, (max-width: 768px) 50vw, 33vw"
-            srcSet={`${require("../assets/logo sahed codes.png")}?w=320 320w,
-                 ${require("../assets/logo sahed codes.png")}?w=640 640w,
-                 ${require("../assets/logo sahed codes.png")}?w=768 768w,
-                 ${require("../assets/logo sahed codes.png")}?w=1024 1024w,
-                 ${require("../assets/logo sahed codes.png")}?w=1200 1200w,
-                 ${require("../assets/logo sahed codes.png")}?w=1600 1600w,
-                 ${require("../assets/logo sahed codes.png")}?w=1920 1920w`}
+            srcSet={`${require("../assets/logo sahed codes.webp")}?w=320 320w,
+                 ${require("../assets/logo sahed codes.webp")}?w=640 640w,
+                 ${require("../assets/logo sahed codes.webp")}?w=768 768w,
+                 ${require("../assets/logo sahed codes.webp")}?w=1024 1024w,
+                 ${require("../assets/logo sahed codes.webp")}?w=1200 1200w,
+                 ${require("../assets/logo sahed codes.webp")}?w=1600 1600w,
+                 ${require("../assets/logo sahed codes.webp")}?w=1920 1920w`}
           />
         </div>
       </div>
@@ -38,4 +40,4 @@ const home = () => {
   );
 };
 
-export default home;
+export default Home;

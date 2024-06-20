@@ -3,7 +3,7 @@ import Navbar from "../components/navbar";
 import Carousel from "../components/carousel";
 import Footer from "../components/footer";
 
-const projects = () => {
+const Projects = () => {
 	return (
 		<div className="h-full bg-black text-white overflow-hidden relative">
 			<Navbar />
@@ -15,4 +15,4 @@ const projects = () => {
 	);
 };
 
-export default projects;
+export default Projects;

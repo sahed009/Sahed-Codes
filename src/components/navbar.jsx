@@ -31,7 +31,7 @@ const Navbar = () => {
           </span>
         </Link>
         <Link
-          to="/about"
+          to="/About"
           className="group  flex items-center justify-center
                  px-4 py-2 text-center hover:shadow-lg rounded-md hover:shadow-secondary transition-all duration-500 hover:bg-opacity-50  absolute top-[28%] left-4"
         >
@@ -48,7 +48,7 @@ const Navbar = () => {
           </span>
         </Link>
         <Link
-          to="/expertise"
+          to="/Expertise"
           className="group  flex items-center justify-center
                  px-4 py-2 text-center hover:shadow-lg rounded-md hover:shadow-secondary transition-all duration-500 hover:bg-opacity-50  absolute top-[42%] left-6"
         >
@@ -65,7 +65,7 @@ const Navbar = () => {
           </span>
         </Link>
         <Link
-          to="/projects"
+          to="/Projects"
           className="group  flex items-center justify-center
                  px-4 py-2 text-center hover:shadow-lg rounded-md hover:shadow-secondary transition-all duration-500 hover:bg-opacity-50  absolute top-[56%] left-4"
         >
@@ -82,7 +82,7 @@ const Navbar = () => {
           </span>
         </Link>
         <Link
-          to="/testimonials"
+          to="/Testimonials"
           className="group  flex items-center justify-center
                  px-4 py-2 text-center hover:shadow-lg rounded-md hover:shadow-secondary transition-all duration-500 hover:bg-opacity-50  absolute top-[70%] left-4"
         >
@@ -99,7 +99,7 @@ const Navbar = () => {
           </span>
         </Link>
         <Link
-          to="/contact"
+          to="/Contact"
           className="group  flex items-center justify-center
                  px-4 py-2 text-center hover:shadow-lg rounded-md hover:shadow-secondary transition-all duration-500 hover:bg-opacity-50  absolute top-[84%] left-4"
         >
@@ -166,7 +166,7 @@ const Navbar = () => {
               <span className="p-0 mt-0 font-semibold">Home</span>
             </Link>
             <Link
-              to="/about"
+              to="/About"
               className="group  w-2/3 flex items-center justify-center
                  px-4 py-2 text-center hover:shadow-lg rounded-md hover:shadow-secondary transition-all duration-500 hover:bg-opacity-50  absolute top-[28%] left-4"
             >
@@ -181,7 +181,7 @@ const Navbar = () => {
               <span className="p-0 mt-0 font-semibold">About</span>
             </Link>
             <Link
-              to="/expertise"
+              to="/Expertise"
               className="group  w-2/3 flex items-center justify-center
                  px-4 py-2 text-center hover:shadow-lg rounded-md hover:shadow-secondary transition-all duration-500 hover:bg-opacity-50  absolute top-[42%] left-6"
             >
@@ -196,7 +196,7 @@ const Navbar = () => {
               <span className="p-0 mt-0 font-semibold">Expertise</span>
             </Link>
             <Link
-              to="/projects"
+              to="/Projects"
               className="group  w-2/3 flex items-center justify-center
                  px-4 py-2 text-center hover:shadow-lg rounded-md hover:shadow-secondary transition-all duration-500 hover:bg-opacity-50  absolute top-[56%] left-4"
             >
@@ -211,7 +211,7 @@ const Navbar = () => {
               <span className="p-0 mt-0 font-semibold">Projects</span>
             </Link>
             <Link
-              to="/testimonials"
+              to="/Testimonials"
               className="group  w-2/3 flex items-center justify-center
                  px-4 py-2 text-center hover:shadow-lg rounded-md hover:shadow-secondary transition-all duration-500 hover:bg-opacity-50  absolute top-[70%] left-4"
             >
@@ -226,7 +226,7 @@ const Navbar = () => {
               <span className="p-0 mt-0 font-semibold">Accolades</span>
             </Link>
             <Link
-              to="/contact"
+              to="/Contact"
               className="group  w-2/3 flex items-center justify-center
                  px-4 py-2 text-center hover:shadow-lg rounded-md hover:shadow-secondary transition-all duration-500 hover:bg-opacity-50  absolute top-[84%] left-4"
             >

@@ -1,10 +1,5 @@
 import React, { useState, useEffect } from "react";
-import Home from "./pages/home";
-import About from "./pages/about";
-import Contact from "./pages/contact";
-import Expertise from "./pages/expertise";
-import Projects from "./pages/projects";
-import Testimonials from "./pages/testimonials";
+
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import TextPreloader from "./components/textPreloader";
 import Cursor from "./components/cursor";
@@ -15,7 +10,14 @@ import { Analytics } from "@vercel/analytics/react";
 import Aos from "aos";
 import "aos/dist/aos.css";
 
-const App = () => {
+const LazyHome = React.lazy(() => import("./pages/Home"));
+const LazyAbout = React.lazy(() => import("./pages/About"));
+const LazyContact = React.lazy(() => import("./pages/Contact"));
+const LazyExpertise = React.lazy(() => import("./pages/Expertise"));
+const LazyProjects = React.lazy(() => import("./pages/Projects"));
+const LazyTestimonials = React.lazy(() => import("./pages/Testimonials"));
+
+function App() {
   const [loading, setloading] = useState(true);
 
   useEffect(() => {
@@ -30,36 +32,49 @@ const App = () => {
 
   return (
     <Router>
-        <Analytics />
-        <Cursor />
-        {loading ? (
-          <TextPreloader />
-        ) : (
-          <>
-            <Switch>
-              <Route exact path="/">
-                <Home />
-              </Route>
-              <Route path="/about">
-                <About />
-              </Route>
-              <Route path="/contact">
-                <Contact />
-              </Route>
-              <Route path="/expertise">
-                <Expertise />
-              </Route>
-              <Route path="/projects">
-                <Projects />
-              </Route>
-              <Route path="/testimonials">
-                <Testimonials />
-              </Route>
-            </Switch>
-          </>
-        )}
+      <Analytics />
+      <Cursor />
+      {loading ? (
+        <TextPreloader />
+      ) : (
+        <>
+          <Switch>
+            <Route exact path="/">
+              <React.Suspense>
+                <LazyHome />
+              </React.Suspense>
+            </Route>
+            php Copy code
+            <Route path="/about">
+              <React.Suspense>
+                <LazyAbout />
+              </React.Suspense>
+            </Route>
+            <Route path="/contact">
+              <React.Suspense>
+                <LazyContact />
+              </React.Suspense>
+            </Route>
+            <Route path="/expertise">
+              <React.Suspense>
+                <LazyExpertise />
+              </React.Suspense>
+            </Route>
+            <Route path="/projects">
+              <React.Suspense>
+                <LazyProjects />
+              </React.Suspense>
+            </Route>
+            <Route path="/testimonials">
+              <React.Suspense>
+                <LazyTestimonials />
+              </React.Suspense>
+            </Route>
+          </Switch>
+        </>
+      )}
     </Router>
   );
-};
+}
 
 export default App;

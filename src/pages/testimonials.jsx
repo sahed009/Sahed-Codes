@@ -97,7 +97,7 @@ Rating.propTypes = {
 	className: PropTypes.string,
 };
 
-const Testimonial = ({ terminalList }) => {
+const Testimonials = ({ terminalList }) => {
 	const [index, setIndex] = useState(0);
 	const { author, description, rating } = testimonialList[index];
 
@@ -204,4 +204,4 @@ const Testimonial = ({ terminalList }) => {
 	);
 };
 
-export default Testimonial;
+export default Testimonials;
