@@ -45,27 +45,27 @@ function App() {
               </React.Suspense>
             </Route>
             php Copy code
-            <Route path="/about">
+            <Route path="/About">
               <React.Suspense>
                 <LazyAbout />
               </React.Suspense>
             </Route>
-            <Route path="/contact">
+            <Route path="/Contact">
               <React.Suspense>
                 <LazyContact />
               </React.Suspense>
             </Route>
-            <Route path="/expertise">
+            <Route path="/Expertise">
               <React.Suspense>
                 <LazyExpertise />
               </React.Suspense>
             </Route>
-            <Route path="/projects">
+            <Route path="/Projects">
               <React.Suspense>
                 <LazyProjects />
               </React.Suspense>
             </Route>
-            <Route path="/testimonials">
+            <Route path="/Testimonials">
               <React.Suspense>
                 <LazyTestimonials />
               </React.Suspense>
