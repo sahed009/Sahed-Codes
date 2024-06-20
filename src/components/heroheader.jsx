@@ -7,7 +7,6 @@ import {
   faLinkedinIn,
 } from "@fortawesome/free-brands-svg-icons";
 import PropTypes from "prop-types";
-import { Link } from "react-router-dom";
 import CV from "./cv";
 
 const socialLinks = [
@@ -93,9 +92,9 @@ const Heroheader = () => {
             </span>
           </h2>
           <p className="text-xl leading-normal opacity-75 mb-2">
-            <span className="text-primary">I'm</span> a Frontend Developer
-            based in Bangladesh and enjoy playing with sites. I love playing
-            chess, travelling, photography & music.
+            <span className="text-primary">I'm</span> a Frontend Developer based
+            in Bangladesh and enjoy playing with sites. I love playing chess,
+            travelling, photography & music.
           </p>
 
           <div className="mt-12 lg:ml-12 p-4 md:px-12 lg:py-6 border-l">
@@ -104,13 +103,8 @@ const Heroheader = () => {
                 <ProfileKeyInfo />
                 <SocialLinks links={socialLinks} />
               </div>
-              <div className="flex md:flex-col justify-between gap-4 md:gap-8">
+              <div className="flex justify-start items-center gap-4 md:gap-8">
                 <CV />
-                <Link to="/contact">
-                  <button className="border-2 border-primary text-primary min-w-[160px]  min-h-[48px] rounded-md font-semibold hover:text-lg transition-all duration-300">
-                    Contact
-                  </button>
-                </Link>
               </div>
             </div>
           </div>

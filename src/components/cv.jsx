@@ -1,11 +1,11 @@
 import React from "react";
 
 const CV = () => {
-	return (
-		<button className="bg-primary text-bgc min-w-[140px] md:min-w-[160px] font-semibold  min-h-[48px] shadow rounded-md hover:text-lg transition-all duration-300">
-			<a href={require("../assets/My Resume.pdf")}>Download CV</a>
-		</button>
-	);
+  return (
+    <button className="border-2 border-primary text-primary min-w-[160px]  min-h-[48px] rounded-md font-semibold hover:text-lg transition-all duration-300">
+      <a href={require("../assets/My Resume.pdf")}>Download CV</a>
+    </button>
+  );
 };
 
 export default CV;
