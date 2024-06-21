@@ -120,7 +120,7 @@ const Testimonials = ({ terminalList }) => {
 		return () => clearInterval(intervalId);
 	}, [handleControl]);
 	return (
-		<section className=" text-white">
+		<section className="h-full bg-black text-white overflow-hidden relative">
 			<Navbar />
 			<Certificates />
 			<div className="container px-4 lg:pl-40 mx-auto py-20 lg:py-16 relative">

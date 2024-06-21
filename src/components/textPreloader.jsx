@@ -11,13 +11,13 @@ const TextPreloader = () => {
             <div className="fixed top-1/4 left-1/2 right-1/2  flex items-center justify-center h-vh bg-black">
 
                 <div className="text-center space-y-4">
-                    <div data-aos="fade-up">
+                    <div data-aos="fade-up" delay="50">
                         <div className={textStyle}>Saheds</div>
                     </div>
-                    <div data-aos="fade-up" data-aos-delay="400">
+                    <div data-aos="fade-up" data-aos-delay="150">
                         <div className={textStyle}>Code</div>
                     </div>
-                    <div data-aos="fade-up" data-aos-delay="800">
+                    <div data-aos="fade-up" data-aos-delay="200">
                         <div className={textStyle}>Crafts</div>
                     </div>
                 </div>
