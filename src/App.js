@@ -10,12 +10,12 @@ import { Analytics } from "@vercel/analytics/react";
 import Aos from "aos";
 import "aos/dist/aos.css";
 
-const LazyHome = React.lazy(() => import("./pages/Home"));
-const LazyAbout = React.lazy(() => import("./pages/About"));
-const LazyContact = React.lazy(() => import("./pages/Contact"));
-const LazyExpertise = React.lazy(() => import("./pages/Expertise"));
-const LazyProjects = React.lazy(() => import("./pages/Projects"));
-const LazyTestimonials = React.lazy(() => import("./pages/Testimonials"));
+import Home from "./pages/Home";
+import About from "./pages/About";
+import Contact from "./pages/Contact";
+import Expertise from "./pages/Expertise";
+import Projects from "./pages/Projects";
+import Testimonials from "./pages/Testimonials";
 
 function App() {
   const [loading, setloading] = useState(true);
@@ -40,35 +40,22 @@ function App() {
         <>
           <Switch>
             <Route exact path="/">
-              <React.Suspense>
-                <LazyHome />
-              </React.Suspense>
+              <Home />
             </Route>
-            php Copy code
             <Route path="/About">
-              <React.Suspense>
-                <LazyAbout />
-              </React.Suspense>
+              <About />
             </Route>
             <Route path="/Contact">
-              <React.Suspense>
-                <LazyContact />
-              </React.Suspense>
+              <Contact />
             </Route>
             <Route path="/Expertise">
-              <React.Suspense>
-                <LazyExpertise />
-              </React.Suspense>
+              <Expertise />
             </Route>
             <Route path="/Projects">
-              <React.Suspense>
-                <LazyProjects />
-              </React.Suspense>
+              <Projects />
             </Route>
             <Route path="/Testimonials">
-              <React.Suspense>
-                <LazyTestimonials />
-              </React.Suspense>
+              <Testimonials />
             </Route>
           </Switch>
         </>
