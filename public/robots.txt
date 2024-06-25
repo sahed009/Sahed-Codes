@@ -1,16 +1,6 @@
 User-agent: *
 Disallow: /admin/
 Disallow: /login/
-Disallow: /private/
-Disallow: /node_modules/
-Disallow: /config/
-Disallow: /temp/
-Disallow: /scripts/
-
-Allow: /public/
-Allow: /images/
-Allow: /assets/
-Allow: /projects/
-Allow: /blog/
+Allow: /
 
 Sitemap: https://sahedcodes.com/sitemap.xml
